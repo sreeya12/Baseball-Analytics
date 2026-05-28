@@ -1,8 +1,4 @@
-# GMU Pitcher Development — Strike % Neural Network
-
-A production-grade neural network pipeline for predicting pitcher strike percentage
-from TrackMan session data. Built for the George Mason University Baseball Operations
-analytics program.
+# GMU Pitcher Development — Strike % Model
 
 ## Project Structure
 
@@ -45,40 +41,6 @@ python main.py --data-dir ./data --cv-folds 0
 # Override hyperparameters
 python main.py --data-dir ./data --epochs 300 --lr 0.0005 --batch-size 32
 ```
-
-## Features (36 total)
-
-### Core 8 (from Features spec)
-
-| Feature              | TrackMan Column     |
-|----------------------|---------------------|
-| Relative Speed       | RelSpeed            |
-| Velocity             | RelSpeed (FB avg)   |
-| Spin Rate            | SpinRate            |
-| Extension            | Extension           |
-| Induced Vertical Break | InducedVertBreak  |
-| Horizontal Break     | HorzBreak           |
-| Spin Axis            | SpinAxis            |
-| Release Height       | RelHeight           |
-
-### Extended (13)
-FB max velocity, FB spin rate, vertical break, release side, approach
-angles (vert/horiz), effective velocity, zone %, whiff %, pitch count,
-pitch type count, FB %, velocity fade (early vs late in outing).
-
-### Category (4)
-One-hot encoding of coach-assigned categories (elite/offspeed/fastball/unknown).
-
-### Temporal (12)
-Lag-1 and 3-session rolling average for: FB velocity, spin rate,
-strike %, zone %, whiff %. Plus session number and days since last outing.
-
-## Pitcher Categories
-
-- **Elite** (≥61% strike rate): Cassedy, Meeks, Lavin, O'Hara, Elliot, Knox, Rumberg
-- **Off-Speed**: Uchman, Stewart, McCarthy, O'Keefe
-- **Fastball**: Egan, Bilo, Ament, Yount, Drumm, Madigan
-
 ## Architecture
 
 ```

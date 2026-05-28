@@ -1,0 +1,18 @@
+Pitcher,Sessions,Actual_Strike_Pct,Predicted_Strike_Pct,Error,Abs_Error,Category,Is_Elite_Pred
+"O'Hara, Connor",8,0.629754,0.627059,-0.002695,0.002695,elite,True
+"Yount, Britt",7,0.620992,0.614528,-0.006464,0.006464,fastball,True
+"Egan, Cole",8,0.599093,0.597028,-0.002065,0.002065,fastball,False
+"Lavin, Sam",6,0.583795,0.583191,-0.000604,0.000604,elite,False
+"Knox, Connor",5,0.583999,0.582664,-0.001334,0.001334,elite,False
+"Drumm, Jake",14,0.581017,0.578780,-0.002238,0.002238,fastball,False
+"Rumberg, Logan",12,0.572443,0.572838,0.000395,0.000395,elite,False
+"Bilo, Michael",3,0.553924,0.549115,-0.004809,0.004809,fastball,False
+"Cassedy, Brandon",8,0.524794,0.529276,0.004482,0.004482,elite,False
+"Meeks, Gardner",10,0.515509,0.520229,0.004720,0.004720,elite,False
+"Elliot, Daniel",8,0.552774,0.512473,-0.040300,0.040300,elite,False
+"Ament, Ryan",6,0.503480,0.498838,-0.004642,0.004642,fastball,False
+"Okeeffe, Shaun",19,0.493699,0.492436,-0.001263,0.001263,offspeed,False
+"Uchman, Ty",4,0.634872,0.481628,-0.153244,0.153244,offspeed,False
+"McCarthy, Dylan",3,0.469697,0.473180,0.003483,0.003483,offspeed,False
+"Stewart, Owen",11,0.456350,0.459950,0.003600,0.003600,offspeed,False
+"Madigan III, Michael",7,0.458740,0.458862,0.000122,0.000122,fastball,False
